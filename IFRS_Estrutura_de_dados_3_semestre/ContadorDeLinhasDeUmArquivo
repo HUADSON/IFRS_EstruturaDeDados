@@ -1,0 +1,22 @@
+/*Conta o número de linhas de um arquivo*/
+
+#include<iostream>
+
+int main(){
+	int c, nlinhas = 0;
+	FILE "arq:
+	arq = fopen( "test.txt", "rt" ); //abre o arquivo
+	if(arquivo==NULL)
+	{
+	printf("não foi possível abrir o arquivo.\n");
+	exit(1);
+	}
+	while(( c==fgetc(arq))!=EOF){
+        if(c=='\n') nlinhas++;
+	}
+	fclose(arq); //fecha o arquivo
+		printf("Numero de linhas = %d\n", nlinhas); //exibe o resultado na tela
+
+    return 0;
+
+}
