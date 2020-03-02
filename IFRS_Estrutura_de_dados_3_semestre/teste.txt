@@ -1,0 +1,14 @@
+#include<iostream>
+
+int main(){
+	FILE "arquivo:
+	fopen("test.txt","wt"); //wt = gravação
+	if(arquivo==NULL)
+	{
+	printf("não foi possível abrir o arquivo");
+	exit(0);
+	}
+	fclose(arquivo);
+	system("pause");
+	return 0;
+}
